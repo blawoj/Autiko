@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Poprzednia"
+        android:onClick="set_categories_view"/>
+
+    <ImageButton
+        android:id="@+id/vegetables_carrot_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:maxHeight="90dp"
+        android:maxWidth="90dp"
+        android:onClick="speak_carrot"
+        android:scaleType="fitCenter"
+        android:src="@drawable/carrot" />
+
+    <TextView
+        android:id="@+id/vegetables_carrot_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/vegetables_carrot_image"
+        android:text="Marchewka"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -46,10 +46,10 @@ public final class R {
         public static final int layout_goneMarginTop = 0x7f020098;
     }
     public static final class id {
-        public static final int packed = 0x7f070041;
-        public static final int parent = 0x7f070042;
-        public static final int spread = 0x7f070060;
-        public static final int spread_inside = 0x7f070061;
+        public static final int packed = 0x7f07004b;
+        public static final int parent = 0x7f07004c;
+        public static final int spread = 0x7f07006a;
+        public static final int spread_inside = 0x7f07006b;
     }
     public static final class styleable {
         public static final int[] ConstraintLayout_Layout = { 0x010100c4, 0x7f020075, 0x7f020076, 0x7f020077, 0x7f020078, 0x7f020079, 0x7f02007a, 0x7f02007b, 0x7f02007c, 0x7f02007d, 0x7f02007e, 0x7f02007f, 0x7f020080, 0x7f020081, 0x7f020082, 0x7f020083, 0x7f020084, 0x7f020085, 0x7f020086, 0x7f020087, 0x7f020088, 0x7f020089, 0x7f02008a, 0x7f02008b, 0x7f02008c, 0x7f02008d, 0x7f02008e, 0x7f02008f, 0x7f020090, 0x7f020091, 0x7f020092, 0x7f020093, 0x7f020094, 0x7f020095, 0x7f020096, 0x7f020097, 0x7f020098 };

@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:text="Next"
-        android:onClick="next_button"/>
+        android:text="Następna"
+        android:onClick="set_categories_view"/>
 
 </RelativeLayout>
